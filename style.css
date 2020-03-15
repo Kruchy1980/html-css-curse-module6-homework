@@ -1,121 +1,115 @@
-/* The header only */
-
-body {
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 20px;
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
-header {
-    margin: 0;
-    border-bottom: 1px solid #000;
-    padding: 0.5em 0;
-    background-color: #777;
-    color: #eee;
-    text-align: center;
-    border-radius: 0 0 20px 20px;
-}
-
-
-/* Elements styling */
-
-
-/* ellipsing element */
-
-.ellipsed {
-    margin-top: 30px;
-    margin-left: 30px;
-    width: 300px;
-    border: 1px solid #ccc;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    line-height: 40px;
-    box-shadow: -3px -3px 3px 1px #777;
-}
-
-
-/* indented */
-
-.indented {
-    position: relative;
-    top: -5px;
-    left: 60px;
-    width: 42rem;
-    height: 400px;
-    text-indent: 30px;
-    border: 1px solid #ccc;
-    box-shadow: -3px -3px 3px 1px #777;
-    line-height: 2;
-    text-align: justify;
-    word-spacing: -2px;
-}
-
-
-/* bolded */
-
-.bolded {
-    font-weight: 800;
-}
-
-
-/* underlined */
-
-.underlined {
-    text-decoration: underline;
-    text-decoration-style: wavy;
-}
-
-
-/* stylized */
-
-.stylized {
-    resize: both;
-    position: relative;
-    top: -195px;
-    left: 160px;
-    border: 3px solid #000;
-    width: 70%;
-    background-color: #0000ff;
-    padding: 20px;
-    color: #fff;
-    text-transform: uppercase;
-    text-align: center
-}
-
-
-/* display prev */
-
-.codedisplay {
-    position: relative;
-    top: -190px;
-    left: 10px;
-    font-family: monospace;
-    background-color: #000;
-    text-align: left;
-    color: #fff;
-    width: 45%;
-    font-size: 12px;
-}
-
-
-/* comment */
-
-.commented {
-    padding: 5px;
-    color: #666;
-}
-
-
-/* nopre */
-
-.nopre {
-    position: relative;
-    top: -10px;
-    left: -80px;
-    white-space: pre;
-    text-align: left;
-    color: #fff;
-}
+    /* The header only */
+    
+    body {
+        margin: 0;
+        box-sizing: border-box;
+        font-size: 20px;
+    }
+    
+    header {
+        margin: 0;
+        border-bottom: 1px solid #000;
+        padding: 0.5em 0;
+        background-color: #777;
+        color: #eee;
+        text-align: center;
+        border-radius: 0 0 20px 20px;
+    }
+    /* Elements styling */
+    /* Main box */
+    
+    .main {
+        max-width: 1024px;
+        margin: 0 auto;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    /* ellipsing element */
+    
+    .ellipsed {
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 420px;
+        border: 1px solid #ccc;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        line-height: 40px;
+        box-shadow: -1px -1px 1px 1px #999;
+    }
+    /* indented */
+    
+    .indented {
+        position: relative;
+        top: -5px;
+        left: 60px;
+        width: 41rem;
+        height: 400px;
+        text-indent: 30px;
+        border: 1px solid #ccc;
+        box-shadow: -1px -1px 1px 1px #999;
+        line-height: 2;
+        text-align: justify;
+    }
+    /* Not possible to mark sentence */
+    
+    .notmarked {
+        user-select: none;
+    }
+    /* bolded */
+    
+    .bolded {
+        font-weight: 800;
+    }
+    /* underlined */
+    
+    .underlined {
+        text-decoration: underline;
+    }
+    /* stylized */
+    
+    .stylized {
+        text-shadow: 3px 4px 2px #000;
+        resize: both;
+        font-size: 1.1rem;
+        position: relative;
+        top: -230px;
+        left: 160px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px 2px #1ea0eb;
+        border: 3px solid #000;
+        width: 70%;
+        background-color: #0000ff;
+        padding: 20px;
+        line-height: 1.5rem;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center
+    }
+    /* display prev */
+    
+    .codedisplay {
+        position: relative;
+        top: -220px;
+        left: 10px;
+        background-color: #000;
+        text-align: left;
+        color: #fff;
+        width: 50%;
+    }
+    /* comment */
+    
+    .commented {
+        padding: 5px;
+        color: #666;
+        margin-left: 10px;
+    }
+    /* nopre */
+    
+    .nopre {
+        position: relative;
+        top: -10px;
+        left: -40px;
+        white-space: pre;
+        text-align: left;
+        color: #fff;
+    }
