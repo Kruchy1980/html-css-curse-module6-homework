@@ -29,12 +29,12 @@
         margin-top: 30px;
         margin-left: 30px;
         width: 420px;
-        border: 1px solid #ccc;
+        border: 1px solid #cccccc80;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
         line-height: 40px;
-        box-shadow: -1px -1px 1px 1px #999;
+        box-shadow: -1px -1px 5px 1px #ddd;
     }
     /* indented */
     
@@ -45,8 +45,8 @@
         width: 41rem;
         height: 400px;
         text-indent: 30px;
-        border: 1px solid #ccc;
-        box-shadow: -1px -1px 1px 1px #999;
+        border: 1px solid #cccccc80;
+        box-shadow: -1px -1px 5px 1px #ddd;
         line-height: 2;
         text-align: justify;
     }
